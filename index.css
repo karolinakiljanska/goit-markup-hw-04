@@ -78,6 +78,11 @@ body {
   margin: 0;
   padding: 32px 27px 31px 371px;
 }
+.icon-mail {
+  margin-right: 10px;
+  fill: #757575;
+}
+
 .mail-link {
   text-decoration: none;
   font-style: normal;
