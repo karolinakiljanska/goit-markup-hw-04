@@ -80,7 +80,11 @@ body {
 }
 .icon-mail {
   margin-right: 10px;
-  fill: #757575;
+  fill: currentColor;
+}
+.icon-phone {
+  fill: currentColor;
+  margin-right: 10px;
 }
 
 .mail-link {
@@ -91,6 +95,8 @@ body {
   line-height: 1.142;
   color: var(--blue);
   letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
 }
 .mail-link:hover {
   color: #2196f3;
@@ -107,6 +113,8 @@ body {
   line-height: 1.142;
   color: var(--black);
   letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
 }
 .phone-link:hover {
   color: #2196f3;
@@ -159,6 +167,42 @@ h1 {
   font-size: 44px;
   line-height: 1.36363636;
   margin: 0;
+}
+.icon-antenna-1 {
+  color: currentColor;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  padding: 25px 101px 25px 101px;
+}
+.icon-clock-1 {
+  color: currentColor;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  padding: 33px 100px 33px 100px;
+}
+.icon-diagram-1 {
+  color: currentColor;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  padding: 25px 102px 25px 102px;
+}
+.icon-astronaut-1 {
+  color: currentColor;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  padding: 30px 115px 29px 100px;
 }
 .lorem-ipsum-list {
   list-style: none;
@@ -253,10 +297,7 @@ figure {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.197;
-
   text-align: center;
-  padding-bottom: 30px;
-  padding-right: 50px;
 }
 .our-team-background {
   width: 270px;
@@ -265,6 +306,59 @@ figure {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 0px 0px 4px 4px;
 }
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  list-style: none;
+  gap: 10px;
+}
+
+.social-links-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: var(--white);
+  width: 44px;
+  height: 44px;
+  gap: 10px;
+}
+.social-icon {
+}
+.our-customer-header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  color: var(--black);
+  margin: 0;
+  padding: 94px 495px 50px;
+}
+.section-brands-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  color: var(--blue);
+}
+.brand-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.brand-icon {
+  width: 106px;
+  height: 60.04px;
+}
+
 .footer {
   background: var(--darkgrey);
   padding: 60px;
