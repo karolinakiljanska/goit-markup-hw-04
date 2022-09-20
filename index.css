@@ -363,6 +363,9 @@ figure {
   margin-bottom: 94px;
   width: 170px;
   height: 92px;
+  fill: currentColor;
+}
+.icon-Client-1 {
   fill: var(--grey);
 }
 .our-customer-list-item:hover,
