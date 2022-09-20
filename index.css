@@ -86,7 +86,12 @@ body {
   fill: currentColor;
   margin-right: 10px;
 }
-
+.icon-mail:hover,
+.icon-mail:focus,
+.icon-phone:hover,
+.icon-phone:hover {
+  fill: var(--blue);
+}
 .mail-link {
   text-decoration: none;
   font-style: normal;
