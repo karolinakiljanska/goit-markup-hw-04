@@ -411,6 +411,7 @@ figure {
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 92px;
+  margin-right: 0;
 }
 .join-us {
   font-style: normal;
@@ -425,6 +426,7 @@ figure {
   display: flex;
   gap: 10px;
   list-style: none;
+  margin-left: 0;
 }
 .footer-social-icons {
   fill: var(--white);
