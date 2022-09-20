@@ -324,7 +324,7 @@ figure {
   width: 44px;
   radius: 50%;
   background-color: none;
-  fill: var(--item-gray);
+  fill: var(--grey);
   display: flex;
   justify-content: center;
   align-items: center;
