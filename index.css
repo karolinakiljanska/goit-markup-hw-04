@@ -42,6 +42,8 @@ body {
   line-height: 1.193;
   letter-spacing: 0.03em;
   font-style: Raleway;
+  padding-bottom: 20px;
+  margin: 0;
 }
 .blue-web {
   color: var(--blue);
@@ -397,6 +399,48 @@ figure {
   flex-direction: column;
   padding-bottom: 60px;
 }
+.footer-social {
+  margin-top: 72px;
+}
+.footer-part {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+}
+.footer-adress {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 92px;
+}
+.join-us {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white);
+}
+.footer-social-list {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+.footer-social-icons {
+  fill: var(--white);
+  background-color: rgba(255, 255, 255, 10%);
+  border-radius: 50%;
+  color: var(--grey);
+  width: 44px;
+  height: 44px;
+  cursor: pointer;
+}
+.footer-social-icons:hover,
+.footer-social-icons:focus {
+  background-color: var(--blue);
+  fill: var(--white);
+}
+
 .portfolio-nav-list {
   list-style: none;
   list-style: none;
