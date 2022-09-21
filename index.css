@@ -107,9 +107,7 @@ body {
   display: flex;
   align-items: center;
 }
-.mail-link:hover {
-  color: #2196f3;
-}
+.mail-link:hover,
 .mail-link:focus {
   color: #2196f3;
 }
@@ -331,7 +329,8 @@ figure {
   height: 44px;
   border-radius: 50px;
 }
-.icon-media-box:hover {
+.icon-media-box:hover,
+.icon-media-box:focus {
   fill: #ffffff;
   background-color: #2196f3;
 }
