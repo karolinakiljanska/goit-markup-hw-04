@@ -313,34 +313,35 @@ figure {
   line-height: 1.197;
   text-align: center;
 }
+
+.icon-media {
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.icon {
+  fill: #afb1b8;
+  cursor: pointer;
+}
+.icon-media-box {
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+}
+.icon-media-box:hover {
+  fill: #ffffff;
+  background-color: #2196f3;
+}
+
 .our-team-background {
   width: 270px;
-  height: 368px;
+  height: 428px;
   background-color: var(--white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 0px 0px 4px 4px;
-}
-.social-links {
-  display: flex;
-  justify-content: center;
-  margin-top: 16px;
-  gap: 10px;
-  list-style: none;
-}
-
-.social-links-item {
-  border: solid 0px;
-  border-radius: 50%;
-  height: 44px;
-  width: 44px;
-  radius: 50%;
-  background-color: none;
-  fill: var(--grey);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 16px;
-  margin-bottom: 30px;
 }
 
 .our-customer-header {
@@ -354,37 +355,30 @@ figure {
   margin: 0;
   padding: 94px 495px 50px;
 }
-.our-customer-list {
-  list-style: none;
+.client-item {
   display: flex;
-  flex-direction: row;
+  list-style: none;
   gap: 30px;
   justify-content: center;
-  margin: 0;
-  list-style: none;
-}
-.our-customer-list-item {
-  box-sizing: border-box;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
+  padding-left: 0;
   margin-bottom: 94px;
-  width: 170px;
-  height: 92px;
-  fill: currentColor;
-}
-.client-icon:hover,
-.client-icon:focus {
-  fill: var(--blue);
 }
 
-.our-customer-list-item:hover,
-.our-customer-list-item:focus {
+.icon-client-logo {
+  display: flex;
+  justify-content: center;
+}
+.icon-client:hover {
+  fill: #2196f3;
+  border-color: #2196f3;
+}
+
+.icon-client {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
-  border-color: var(--blue);
-  border-style: solid;
-  background-color: var(--white);
-  fill: var(--blue);
-  cursor: pointer;
+  justify-content: center;
 }
 
 .footer {
