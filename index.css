@@ -139,6 +139,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/tlo.jpg);
 }
 .main-section-text {
   font-style: "Roboto";
