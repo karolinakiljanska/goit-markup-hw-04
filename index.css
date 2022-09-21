@@ -83,6 +83,8 @@ body {
 .icon-mail {
   margin-right: 10px;
   fill: currentColor;
+  width: 16px;
+  height: 12px;
 }
 .icon-phone {
   fill: currentColor;
@@ -384,9 +386,9 @@ figure {
 }
 
 .footer-list {
-  padding-inline-start: 0px;
   text-align: left;
   list-style: none;
+  padding-inline-start: 0px;
 }
 
 .adress-text {
@@ -429,7 +431,7 @@ figure {
   display: flex;
   gap: 10px;
   list-style: none;
-  margin-left: 0;
+  padding-inline-start: 0px;
 }
 .footer-social-icons {
   fill: var(--white);
@@ -461,6 +463,7 @@ figure {
   line-height: 1, 142;
   letter-spacing: 0.02em;
   color: var(--grey);
+  text-decoration: none;
 }
 
 .mail-link-portfolio:hover {
