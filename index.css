@@ -367,9 +367,11 @@ figure {
   height: 92px;
   fill: currentColor;
 }
-.icon-Client-1 {
-  fill: var(--grey);
+.client-icon:hover,
+.client-icon:focus {
+  fill: var(--blue);
 }
+
 .our-customer-list-item:hover,
 .our-customer-list-item:focus {
   border-radius: 4px;
