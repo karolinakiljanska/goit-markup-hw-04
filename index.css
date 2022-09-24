@@ -132,6 +132,7 @@ body {
   display: flex;
   align-items: center;
 }
+
 .phone-link:hover,
 .phone-link:focus {
   color: #2196f3;
