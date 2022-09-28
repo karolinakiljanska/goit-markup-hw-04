@@ -40,7 +40,6 @@ body {
   line-height: 1.193;
   color: var(--black);
   letter-spacing: 0.03em;
-  font-family: Raleway, sans-serif;
 }
 .footer-logo {
   color: var(--white);
@@ -49,7 +48,6 @@ body {
   font-size: 26px;
   line-height: 1.193;
   letter-spacing: 0.03em;
-  font-family: "Raleway", sans-serif;
 }
 .blue-web {
   color: var(--blue);
@@ -61,7 +59,6 @@ body {
   padding-left: 92px;
 }
 .nav-link-blue {
-  font-family: "Roboto";
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -71,7 +68,6 @@ body {
   line-height: 1.142;
 }
 .nav-link-black {
-  font-family: "Roboto";
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -104,7 +100,6 @@ body {
   fill: var(--blue);
 }
 .mail-link {
-  font-family: "Roboto";
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
@@ -121,7 +116,6 @@ body {
 }
 
 .phone-link {
-  font-family: "Roboto";
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
@@ -409,7 +403,6 @@ figure {
 }
 
 .adress-text {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -424,7 +417,6 @@ figure {
   padding-bottom: 60px;
 }
 .mail-link-footer {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -434,7 +426,6 @@ figure {
   padding-bottom: 9px;
 }
 .phone-link-footer {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
